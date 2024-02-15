@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" xmlns:r="reflection" Id="QhSKv1k3RR4NGL1vf4WDXf" LanguageVersion="2024.6.0-0139-g74911af44e" Version="0.128">
+  <Patch Id="DOZ0XK8F3BTOO5hD0pm3d8">
+    <Canvas Id="RPRzCzNvxnWND0shbi5T9k" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
+    <!--
+
+    ************************ Application ************************
+
+-->
+    <Node Name="Application" Bounds="100,100" Id="Tazk031AHPeLQE1hedFu8N">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <CategoryReference Kind="Category" Name="Primitive" />
+      </p:NodeReference>
+      <Patch Id="KYf3oBL5JP8MBgteZEIBaQ">
+        <Canvas Id="GheUUvJBb6qLp3oEAwJf0q" CanvasType="Group">
+          <Pad Id="Ed459sLhd5WNiaSSCy7dLX" Bounds="143,462,549,19" ShowValueBox="true" isIOBox="true" Value="Install LoopMIDI, Virtual midi ports tool, to comunicate between your software applications">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="F8iY5rzszcDQEsB3AqOKl3" Bounds="143,482,347,19" ShowValueBox="true" isIOBox="true" Value="https://www.tobias-erichsen.de/software/loopmidi.html">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="DqkPJkVaUJOOvnm5zuOgzj" Bounds="143,502,453,19" ShowValueBox="true" isIOBox="true" Value="Install MIDIOX, Powerfull MiDi tool for creating and monitoring MiDi events">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="RMr7ycbAom8N5z5xIU8h3q" Bounds="143,522,168,19" ShowValueBox="true" isIOBox="true" Value="http://www.midiox.com/">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="PU3UrxHaLYENx5K8VNuUeH" Bounds="143,201,214,19" ShowValueBox="true" isIOBox="true" Value="https://en.wikipedia.org/wiki/MIDI">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="ENtujWsQCc0MNbipMkDLZK" Bounds="143,161,144,19" ShowValueBox="true" isIOBox="true" Value="What does MiDi mean?">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="Pd0lPJPjdcSPJDukHtODQS" Bounds="143,289,208,19" ShowValueBox="true" isIOBox="true" Value="Why do we still use MiDi in 2023?">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="RU8RHpIhDjkO2Ark8RwFMT" Bounds="173,309,441,19" ShowValueBox="true" isIOBox="true" Value="-Is universal, many hardware units and software applications still use it">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="MgAMre6gNKDPssMxkwEZOY" Bounds="173,329,441,19" ShowValueBox="true" isIOBox="true" Value="-Is robust and simple, not need of complex devices or protocols">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="ScjhVSBlX35OZYrjEmw0dQ" Bounds="173,349,537,19" ShowValueBox="true" isIOBox="true" Value="-Is easy available and replaceable, you can find MiDi Controllers &amp; Interfaces everywhere">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="ODl83uKS57HLnCSR7woP3o" Bounds="143,221,111,19" ShowValueBox="true" isIOBox="true" Value="https://midi.org/">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="MfnpTLXfSnzQMNQptUKOMf" Bounds="173,369,537,19" ShowValueBox="true" isIOBox="true" Value="-It provides high resolution, used in the right way (14 bits -&gt;16384 maximum value)">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="PMXMD38OPP5PEgMJJsjNjd" Bounds="488,595,198,19" ShowValueBox="true" isIOBox="true" Value="https://www.aristidesgarcia.de/">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="OLBIenzoJ8PMwoDdmY8qnA" Bounds="488,574,196,20" ShowValueBox="true" isIOBox="true" Value="Arístides García, July 7th 2023">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="S3WjP3ZtBkHMLgnzkyjT7N" Bounds="143,442,549,19" ShowValueBox="true" isIOBox="true" Value="Pick up a MiDi Controller or use an application capable of send and receive MiDi events">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="GsRHpzisi0LPNjuknsg14M" Bounds="143,181,220,19" ShowValueBox="true" isIOBox="true" Value="Musical Instrument Digital Interface">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+        </Canvas>
+        <Patch Id="ISoGMzuxKArQAyaZITnEQK" Name="Create" />
+        <Patch Id="CvLPZnqowBNLdVeZLeFw8L" Name="Update" />
+        <ProcessDefinition Id="MZ3mJXX3nXAQFUaytFAzPe">
+          <Fragment Id="QhtmT3j4K9QP24joElsA0V" Patch="ISoGMzuxKArQAyaZITnEQK" Enabled="true" />
+          <Fragment Id="DWIdj1VUreNNE3ihH46zbc" Patch="CvLPZnqowBNLdVeZLeFw8L" Enabled="true" />
+        </ProcessDefinition>
+      </Patch>
+    </Node>
+  </Patch>
+  <NugetDependency Id="FCiLKwIchZZOSLzOjOH8ms" Location="VL.CoreLib" Version="2024.6.0-0139-g74911af44e" />
+</Document>
