@@ -198,7 +198,7 @@
       </p:NodeReference>
       <Patch Id="IChRbLVQv09OluxyfVVM4V">
         <Canvas Id="UFmQ2FBoUd8O5yQjGBfCDz" CanvasType="Group">
-          <Node Bounds="198,409,225,19" Id="NUf7uKCUnvLOtbJHviyfqD">
+          <Node Bounds="198,439,145,19" Id="NUf7uKCUnvLOtbJHviyfqD">
             <p:NodeReference LastCategoryFullName="Music.MIDI.Utils.BPM" LastDependency="VL.MiDi.Music.Utils.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="BPM" />
@@ -210,23 +210,23 @@
             <Pin Id="M34EPBT6SEMNxQnlkWLuD6" Name="&lt;&lt;" Kind="InputPin" />
             <Pin Id="JUgld64q3brL0Pzl5dIZbf" Name="&gt;&gt;" Kind="InputPin" />
             <Pin Id="V2WcM1ccyFCO1s7EhCq4jo" Name="Reset" Kind="InputPin" />
-            <Pin Id="Awy1AQHns5UOONjcPlkTwJ" Name="Update" Kind="InputPin" DefaultValue="False" />
+            <Pin Id="C6ApbzYq8iJMFg05Tbq3rM" Name="Update" Kind="InputPin" />
             <Pin Id="V55OVjSlo9QNUFyR7CLnUP" Name="BPM" Kind="InputPin" />
             <Pin Id="LR96qKdelvwLdhvWVhXMpP" Name="SetNewBPM" Kind="InputPin" />
-            <Pin Id="MyyVlhU66iNLcPR2SlQWox" Name="ExtBPM" Kind="InputPin" />
-            <Pin Id="Ol6K0dG6xKsPuzpDERH4hh" Name="MidiClockDevice" Kind="InputPin" />
+            <Pin Id="QSFMjIpGgPANcO6jHjn3Bw" Name="ExtBPM" Kind="InputPin" />
+            <Pin Id="NLhwaGwbpwdPvMuLy6C8Rj" Name="MidiClockDevice" Kind="InputPin" />
             <Pin Id="EP5XaCgPmzNN0ZWeKPC5dZ" Name="BPM" Kind="OutputPin" />
             <Pin Id="QRqzuDmQxADQSMOkVaxV8d" Name="Period" Kind="OutputPin" />
-            <Pin Id="Kz2xn7DxeNeM8j2k0R9BXN" Name="Cycle" Kind="OutputPin" />
-            <Pin Id="KOjuVeQTI2yLtYi1SQtk92" Name="ClockMultiplier" Kind="OutputPin" />
+            <Pin Id="SS3BFMpXvWkP5kss2bp4Om" Name="Cycle" Kind="OutputPin" />
+            <Pin Id="A57gjcJXK1sO3MUdW4vxrg" Name="ClockMultiplier" Kind="OutputPin" />
             <Pin Id="Ttj28LgX83iMPm5mWlF7P6" Name="Count" Kind="OutputPin" />
             <Pin Id="DgBpOWuvNvCOLAqyBr5EMY" Name="OverFlow" Kind="OutputPin" />
-            <Pin Id="OMCPknqxYh5NYpxRiKbsE1" Name="Beat" Kind="OutputPin" />
-            <Pin Id="AILehIfTUu5PC3keJPg5XH" Name="Divisions" Kind="OutputPin" />
-            <Pin Id="RMUPb2vXJOHNHa6m92MUDR" Name="Present" Kind="OutputPin" />
-            <Pin Id="MuX7dlRcXfdQQtzZHK4uPS" Name="ExtBPM" Kind="OutputPin" />
-            <Pin Id="FOahgewPq3KNIaTB7vltrk" Name="Play" Kind="OutputPin" />
-            <Pin Id="CQLBLBpWXMAMycAISzdFZ0" Name="Stop" Kind="OutputPin" />
+            <Pin Id="EUeuckZHzbaLB5Ko78eVHM" Name="Beat" Kind="OutputPin" />
+            <Pin Id="KWLcyk3n4qGNPRGpuaQ2Ci" Name="Divisions" Kind="OutputPin" />
+            <Pin Id="RcEXe2Br8WQMQGlyZLDREY" Name="Present" Kind="OutputPin" />
+            <Pin Id="F1R8syA697cNCwN6Xs3c2P" Name="ExtBPM" Kind="OutputPin" />
+            <Pin Id="TQRu9Cy4o24OlbIYrUHcMo" Name="Play" Kind="OutputPin" />
+            <Pin Id="TFSCNTHfvqELDwGcWJdT5k" Name="Stop" Kind="OutputPin" />
           </Node>
           <Pad Id="FmQfI2yuYeuLgy5RcoinY1" Comment="Tap" Bounds="200,202,119,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -236,7 +236,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Press</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="AIeEzUlZWVQMwvfTszSaBF" Comment="SetNewBPM" Bounds="376,350,53,44" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="AIeEzUlZWVQMwvfTszSaBF" Comment="SetNewBPM" Bounds="340,392,53,44" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
@@ -244,7 +244,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="BLv4r4NdddpQZVqhapCrHx" Comment="BPM" Bounds="353,312,125,25" ShowValueBox="true" isIOBox="true" Value="120">
+          <Pad Id="BLv4r4NdddpQZVqhapCrHx" Comment="BPM" Bounds="320,354,125,25" ShowValueBox="true" isIOBox="true" Value="120">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
@@ -253,13 +253,13 @@
               <p:unit p:Type="String"> bpm</p:unit>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="FKC1PKQyoVhMPmokEMWNUP" Comment="BPM" Bounds="199,556,156,31" ShowValueBox="true" isIOBox="true">
+          <Pad Id="FKC1PKQyoVhMPmokEMWNUP" Comment="BPM" Bounds="199,586,156,31" ShowValueBox="true" isIOBox="true">
             <p:ValueBoxSettings>
               <p:fontsize p:Type="Int32">15</p:fontsize>
               <p:unit p:Type="String"> bpm</p:unit>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="RgqIMsEmy5iLJ8NrU73c7g" Comment="Count" Bounds="280,528,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="RgqIMsEmy5iLJ8NrU73c7g" Comment="Count" Bounds="269,541,35,15" ShowValueBox="true" isIOBox="true" />
           <Pad Id="H03Hr9mRLwCPZZSqOjeuVg" Comment="&lt;&lt;" Bounds="200,294,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
@@ -311,5 +311,5 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="Cv7jOjXdnSkO8uPWstv7et" Location="VL.MiDi.Music.Utils" Version="1.0.3" />
+  <NugetDependency Id="PrQzS9FmnEsPIwSYQL5ipA" Location="VL.MiDi.Music.Utils" Version="1.0.3" />
 </Document>
