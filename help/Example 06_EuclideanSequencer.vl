@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="V3fBUEQZTsUM3Upz3ySkj3" LanguageVersion="2024.6.0-0139-g74911af44e" Version="0.128">
-  <NugetDependency Id="Dv3gCY2LkI8PDvOEF7KRVd" Location="VL.CoreLib" Version="2024.6.0-0139-g74911af44e" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="V3fBUEQZTsUM3Upz3ySkj3" LanguageVersion="2024.6.0-0147-g1e8546b10d" Version="0.128">
+  <NugetDependency Id="Dv3gCY2LkI8PDvOEF7KRVd" Location="VL.CoreLib" Version="2024.6.0-0147-g1e8546b10d" />
   <Patch Id="EjYs1rrZBe4NZlMiJn1y4q">
     <Canvas Id="HTXJWDaWKKcOMNabTyJ7WS" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -258,19 +258,14 @@
             <Pin Id="LvEGujnpIUEQZWYOCsbsSM" Name="GlobalOffset" Kind="InputPin" />
             <Pin Id="Gt1ADOmRqDQQVv8xQ95Qnd" Name="EuclideanBooleanOperation" Kind="InputPin" />
             <Pin Id="OKCbDsDKLSaOLLFdu6gXKM" Name="Force" Kind="InputPin" IsHidden="true" />
-            <Pin Id="Ar1C8egn7R0M4Re8LlGxLZ" Name="Update" Kind="OutputPin" />
             <Pin Id="FWr7TN3OV3APMIrLJO1MzD" Name="EuclideanIndices" Kind="OutputPin" />
             <Pin Id="SuG4846qxuNLLuWVznv4zS" Name="EuclideanIndices_A" Kind="OutputPin" />
             <Pin Id="LLP5VzK9OYoNAzZzmKcpDH" Name="EuclideanIndices_B" Kind="OutputPin" />
+            <Pin Id="Ar1C8egn7R0M4Re8LlGxLZ" Name="Update" Kind="OutputPin" />
           </Node>
           <Pad Id="SwQ0jsnxS9YNN6ygit23Up" Comment="EuclideanPulses" Bounds="854,771,35,15" ShowValueBox="true" isIOBox="true" Value="4">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Pad Id="NWNbj5kU2HCMQfjhjLUmBQ" Comment="EuclideanBooleanOperation" Bounds="994,955,69,15" ShowValueBox="true" isIOBox="true" Value="OR">
-            <p:TypeAnnotation LastCategoryFullName="Enums" LastDependency="VL.MiDi.Music.Utils.vl">
-              <Choice Kind="TypeFlag" Name="BooleanOperations" />
             </p:TypeAnnotation>
           </Pad>
           <Pad Id="LhTpBitojGyNGntiJiWjTR" Comment="EuclideanPulses_2" Bounds="914,853,35,15" ShowValueBox="true" isIOBox="true" Value="5">
@@ -420,11 +415,6 @@
                 <ControlPoint Id="V5r8s3joWopP15zbuVchZM" Bounds="393,591" />
                 <ControlPoint Id="JVqoEJndF0tO4RIXyFuhYa" Bounds="332,591" />
               </Canvas>
-              <!--
-
-    ************************  ************************
-
--->
               <ProcessDefinition Id="K1lBYVLJc8GLYjZ2bWBSGa">
                 <Fragment Id="Ff44TLdBDMmPXXogFpwY3P" Patch="Kafrz95FC6zMW4MhI7YOte" Enabled="true" />
                 <Fragment Id="EhnuBBHkRCeLkOVNKABzNB" Patch="VY4ZMfsEl3lNdHhSgZnGnL" Enabled="true" />
@@ -499,10 +489,10 @@
             <Pin Id="VSn9E7GFrNWLeBF4MBhA5v" Name="GlobalOffset" Kind="InputPin" />
             <Pin Id="M3yCct7dEdJOYxkzsuw78T" Name="EuclideanBooleanOperation" Kind="InputPin" />
             <Pin Id="IJVs25BVMJaMG8PRVcCeE0" Name="Force" Kind="InputPin" IsHidden="true" />
-            <Pin Id="QEyfgGY7FshNf6kYrNTMaL" Name="Update" Kind="OutputPin" />
             <Pin Id="M85hdocG5t1OJ3ldduqDBJ" Name="EuclideanIndices" Kind="OutputPin" />
             <Pin Id="UQHeF2UJhiUMd4a1VVnyJH" Name="EuclideanIndices_A" Kind="OutputPin" />
             <Pin Id="DApOmUdfSZUPkpD7llu4e8" Name="EuclideanIndices_B" Kind="OutputPin" />
+            <Pin Id="QEyfgGY7FshNf6kYrNTMaL" Name="Update" Kind="OutputPin" />
           </Node>
           <Pad Id="A2ZmsPGEwdnP42EEdcpVnf" Comment="EuclideanPulses" Bounds="1526,776,35,15" ShowValueBox="true" isIOBox="true" Value="9">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -511,7 +501,7 @@
           </Pad>
           <Pad Id="U8GmjMH5a5wOT55RCak4g0" Comment="EuclideanBooleanOperation" Bounds="1666,955,69,15" ShowValueBox="true" isIOBox="true" Value="XOR">
             <p:TypeAnnotation LastCategoryFullName="Enums" LastDependency="VL.MiDi.Music.Utils.vl">
-              <Choice Kind="TypeFlag" Name="BooleanOperations" />
+              <Choice Kind="TypeFlag" Name="BooleanOperation" />
             </p:TypeAnnotation>
           </Pad>
           <Pad Id="P74gQj65PjUN5ueXWpF6sB" Comment="EuclideanPulses_2" Bounds="1586,854,35,15" ShowValueBox="true" isIOBox="true" Value="4">
@@ -601,10 +591,10 @@
             <Pin Id="Ff4Lv97JVxUQW9nSOufK5P" Name="GlobalOffset" Kind="InputPin" />
             <Pin Id="ARfcf9AeCAOLNThgayU1PR" Name="EuclideanBooleanOperation" Kind="InputPin" />
             <Pin Id="GvTSXb4zWPNOfYKVFwv0OS" Name="Force" Kind="InputPin" IsHidden="true" />
-            <Pin Id="INGhGJbsh8QOqf4HhCJyHa" Name="Update" Kind="OutputPin" />
             <Pin Id="GJDOiWvsYrmMtVOL6KFGFy" Name="EuclideanIndices" Kind="OutputPin" />
             <Pin Id="TSxJeLIhesXMV85F0a4LDN" Name="EuclideanIndices_A" Kind="OutputPin" />
             <Pin Id="QSL1dBRdASnP3ueU1oD3rP" Name="EuclideanIndices_B" Kind="OutputPin" />
+            <Pin Id="INGhGJbsh8QOqf4HhCJyHa" Name="Update" Kind="OutputPin" />
           </Node>
           <Pad Id="GuJeN2hQmjpMbwxTr8GbAy" Comment="EuclideanPulses" Bounds="2216,776,35,15" ShowValueBox="true" isIOBox="true" Value="4">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -613,7 +603,7 @@
           </Pad>
           <Pad Id="DFjUff58JbPNJDdpUNKlaH" Comment="EuclideanBooleanOperation" Bounds="2356,955,69,15" ShowValueBox="true" isIOBox="true" Value="OR">
             <p:TypeAnnotation LastCategoryFullName="Enums" LastDependency="VL.MiDi.Music.Utils.vl">
-              <Choice Kind="TypeFlag" Name="BooleanOperations" />
+              <Choice Kind="TypeFlag" Name="BooleanOperation" />
             </p:TypeAnnotation>
           </Pad>
           <Pad Id="JoDqOQSJXz9MXYDMXiDiPi" Comment="EuclideanPulses_2" Bounds="2276,854,35,15" ShowValueBox="true" isIOBox="true" Value="6">
@@ -703,10 +693,10 @@
             <Pin Id="HNBjqFTKQDTPnGnl0G3Bzp" Name="GlobalOffset" Kind="InputPin" />
             <Pin Id="OF5jpQKESf5MvlIqlpZeYZ" Name="EuclideanBooleanOperation" Kind="InputPin" />
             <Pin Id="GiCSPDWISraNKjejryweFR" Name="Force" Kind="InputPin" IsHidden="true" />
-            <Pin Id="VDaasQgjwjmNMO2zuheI6N" Name="Update" Kind="OutputPin" />
             <Pin Id="SlsJ7sWRRmxL46rRzYahLL" Name="EuclideanIndices" Kind="OutputPin" />
             <Pin Id="UuK6AfR63IiPwpjhHFUwYI" Name="EuclideanIndices_A" Kind="OutputPin" />
             <Pin Id="VIMbFlq0o37QakTUJ18Mtn" Name="EuclideanIndices_B" Kind="OutputPin" />
+            <Pin Id="VDaasQgjwjmNMO2zuheI6N" Name="Update" Kind="OutputPin" />
           </Node>
           <Pad Id="UAKkgoGC1uFL5KFKATIEXF" Comment="EuclideanPulses" Bounds="2902,776,35,15" ShowValueBox="true" isIOBox="true" Value="2">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -715,7 +705,7 @@
           </Pad>
           <Pad Id="K7Kurm2A1dGQZ41lGZJf9Z" Comment="EuclideanBooleanOperation" Bounds="3042,955,69,15" ShowValueBox="true" isIOBox="true" Value="OR">
             <p:TypeAnnotation LastCategoryFullName="Enums" LastDependency="VL.MiDi.Music.Utils.vl">
-              <Choice Kind="TypeFlag" Name="BooleanOperations" />
+              <Choice Kind="TypeFlag" Name="BooleanOperation" />
             </p:TypeAnnotation>
           </Pad>
           <Pad Id="P7iY1UzqGbINYVsTh5hwPi" Comment="EuclideanPulses_2" Bounds="2962,854,35,15" ShowValueBox="true" isIOBox="true" Value="3">
@@ -839,11 +829,11 @@
                     <Pin Id="GO9qtNo7xqTOIfB5YBxfh4" Name="Midi Channel" Kind="InputPin" />
                     <Pin Id="FhhjexKTlwxOuXBHfD40sV" Name="NoteList" Kind="InputPin" />
                     <Pin Id="VorpeM0mIW8LSvrHJDnQXg" Name="VelocityList" Kind="InputPin" />
+                    <Pin Id="ArKlblWrw9WQWz7w0Wn6Z1" Name="NoteLength" Kind="InputPin" DefaultValue="0" />
                     <Pin Id="RiYPrbWaELeN1OCHD5uZYG" Name="Enable" Kind="InputPin" />
                     <Pin Id="SM1yEDy0HIiNR2zQZJANH5" Name="Output" Kind="OutputPin" />
                     <Pin Id="UzEGD2XVKWENXqD82oVyL2" Name="Trigger" Kind="OutputPin" />
                     <Pin Id="MkwFtUZFoxnLuIdR3mCsYb" Name="Current Division" Kind="OutputPin" />
-                    <Pin Id="ArKlblWrw9WQWz7w0Wn6Z1" Name="NoteLength" Kind="InputPin" DefaultValue="0" />
                   </Node>
                   <Node Bounds="723,1691,56,26" Id="LYumV7yskxyLpsMzgUaA9c">
                     <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
@@ -972,6 +962,11 @@
           <Pad Id="CQkwsi7we5XMN0aFLRwYg1" SlotId="Obg4M3pqLf3NJ6SxZMiATq" Bounds="1506,955" />
           <Pad Id="G7M54mjv5kuMiu7IxVHOWt" SlotId="Obg4M3pqLf3NJ6SxZMiATq" Bounds="2195,955" />
           <Pad Id="OAkCnJNQiLlNxIiNS6X1mB" SlotId="Obg4M3pqLf3NJ6SxZMiATq" Bounds="2881,955" />
+          <Pad Id="A5kKpWSbjMTLw85wHjeKHL" Comment="EuclideanBooleanOperation" Bounds="994,955,69,15" ShowValueBox="true" isIOBox="true" Value="OR">
+            <p:TypeAnnotation LastCategoryFullName="Enums" LastDependency="VL.MiDi.Music.Utils.vl">
+              <Choice Kind="TypeFlag" Name="BooleanOperation" />
+            </p:TypeAnnotation>
+          </Pad>
         </Canvas>
         <Patch Id="UKO9Ugav2LZMBLvKH8wD17" Name="Create" />
         <Patch Id="ImdIrcR0RV2QQTCI2iNiat" Name="Update" />
@@ -1006,7 +1001,6 @@
         <Link Id="LUiBKVxfIPGPX5aZMI3h8O" Ids="KZ4BtlvplH2NqG4iAlTFfl,Mn3gLQmAQ5WMWtGO6DScx9" />
         <Link Id="DRLQmGuqoy2PW5aIPqCK8Y" Ids="NZwL8VQxC9eOIBW4uCI6bT,OCl8daAEicUNhOfKjEER87" />
         <Link Id="H3PBUM1IZTyLx1mUnT6esj" Ids="SwQ0jsnxS9YNN6ygit23Up,H1WYbGpdpEHP0Nm715Vsau" />
-        <Link Id="Rrm62qOJGu3NpH7i6BLu6x" Ids="NWNbj5kU2HCMQfjhjLUmBQ,Gt1ADOmRqDQQVv8xQ95Qnd" />
         <Link Id="Ji7NiKkVIPnOJqjwyvnTYb" Ids="LhTpBitojGyNGntiJiWjTR,JfvmebZ0r30PRl87qbckl7" />
         <Link Id="AuOdUtOCB8QQPNakAqTKoH" Ids="SSnK31pvvupPKkmSpzyfeG,BjhgatHoyKLOH0BKFe9oMA" />
         <Link Id="RGX5DviwFZrNscYJ02yssG" Ids="Uy6BkIE7XAILyRvV8rNpvp,RNwZM7whX9HL3Xx4IwF0PK" />
@@ -1102,9 +1096,10 @@
         <Link Id="SxaxBQKU7S5QKUNfScUA9l" Ids="G7M54mjv5kuMiu7IxVHOWt,VQDXtZAtVLZN7XA12ODhhz" />
         <Link Id="FPTeUD9rhsIPQGwblqCsRz" Ids="OAkCnJNQiLlNxIiNS6X1mB,TVv5YBGBKq9NwO2WWGwa9P" />
         <Link Id="HUhCECmPaZtMCg0y5IHUc5" Ids="OAkCnJNQiLlNxIiNS6X1mB,KTczLN1QslzPrEPeeJIe18" />
+        <Link Id="VikaqZcEcgZNpt3mlQS8O6" Ids="A5kKpWSbjMTLw85wHjeKHL,Gt1ADOmRqDQQVv8xQ95Qnd" />
       </Patch>
     </Node>
   </Patch>
   <NugetDependency Id="FIKtRDio8puMN4suHiUm7e" Location="VL.IO.Midi" Version="1.0.11" />
-  <NugetDependency Id="UN9ISqtfuatL36XtqewbdU" Location="VL.MiDi.Music.Utils" Version="1.0.3" />
+  <NugetDependency Id="Hcb02M7JWSzNrCfszuOvAY" Location="VL.MiDi.Music.Utils" Version="1.0.3" />
 </Document>
