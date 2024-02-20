@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cQwvvpQNoTljGX68PWtG8VGLhJoQ5gVitG19TO5gjyos8PqlW5KSlliPBZU6UK88iRo2WSc1rizB2nEZtkLZ6g==",
+  "dgSpecHash": "X04njCgzPKM8CPKGEgsfJcFEuoBZI8IGegi/u52VhY/WfRFC7SVOnc3DHG+4Ojhm7xtwWzSDc1gdJOIB8ddQSg==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\VL.MiDi.Music.Utils\\src\\Enums\\Enums.csproj",
+  "projectFilePath": "D:\\Projects\\VL.MiDi.Music.Utils\\src\\Enums\\MusicUtilEnums.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\arist\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\arist\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

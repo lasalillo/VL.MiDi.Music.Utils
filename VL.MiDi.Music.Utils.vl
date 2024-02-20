@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="IaeDZLmk3cAQIhke33I6pn" LanguageVersion="2024.6.0-0147-g1e8546b10d" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="IaeDZLmk3cAQIhke33I6pn" LanguageVersion="2024.6.0-0156-g47917ea4e3" Version="0.128">
   <Patch Id="CtVOk7fTccYNgnvRo3er17">
     <Canvas Id="QrzIhKHbxxOLPRJyCpIsc4" DefaultCategory="Music.MIDI.Utils" CanvasType="FullCategory">
       <Canvas Id="Ohy1sggMhsDPMze7VTOPtt" Name="Operations" Position="312,517">
@@ -14410,7 +14410,7 @@
               <Pin Id="MZuav3L7zTmM1vV2trzaE3" Name="SnapToOrigin 2" Kind="InputPin" Bounds="827,352" />
               <Pin Id="UgG5sQrzp52OXpt20uTocw" Name="GlobalOffset" Kind="InputPin" Bounds="855,373" />
               <Pin Id="FW6TVYYp8ikPEgkNKH8ARU" Name="EuclideanBooleanOperation" Kind="InputPin" Bounds="1339,1164" DefaultValue="A">
-                <p:TypeAnnotation LastCategoryFullName="Enums" LastDependency="Enums.dll">
+                <p:TypeAnnotation LastCategoryFullName="MidiUtilsEnums" LastDependency="MusicUtilEnums.dll">
                   <Choice Kind="TypeFlag" Name="BooleanOperation" />
                 </p:TypeAnnotation>
               </Pin>
@@ -22471,7 +22471,7 @@
                     <Pin Id="IcERPpDqU5rLFDk8gLVSSK" Name="Command" Kind="OutputPin" />
                   </Node>
                   <Node Bounds="618,435,27,19" Id="GUlbpJVYDpbLSLGwIOoLtJ">
-                    <p:NodeReference LastCategoryFullName="Enums.MessageCommand" LastDependency="Enums.dll">
+                    <p:NodeReference LastCategoryFullName="MidiUtilsEnums.MessageCommand" LastDependency="MusicUtilEnums.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <CategoryReference Kind="AssemblyCategory" Name="MessageCommand" NeedsToBeDirectParent="true" />
                       <Choice Kind="OperationCallFlag" Name="=" />
@@ -22897,7 +22897,7 @@
                   </Node>
                   <Pad Id="ObyX5o1SbBlLlGIyMAvGnM" Comment="" Bounds="2054,440,35,15" ShowValueBox="true" isIOBox="true" />
                   <Node Bounds="1816,462,25,19" Id="OA6rgvov3TpO474jOI22qn">
-                    <p:NodeReference LastCategoryFullName="Enums.MessageCommand" LastDependency="Enums.dll">
+                    <p:NodeReference LastCategoryFullName="MidiUtilsEnums.MessageCommand" LastDependency="MusicUtilEnums.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <CategoryReference Kind="AssemblyCategory" Name="MessageCommand" NeedsToBeDirectParent="true" />
                       <Choice Kind="OperationCallFlag" Name="=" />
@@ -22957,7 +22957,7 @@
                     <Pin Id="QPEuDfYLDA2PY0W5Axp6mS" Name="Channel" Kind="OutputPin" />
                   </Node>
                   <Pad Id="FqiNIr5YjoaO9qh8Mthezz" Comment="" Bounds="1838,442,99,15" ShowValueBox="true" isIOBox="true" Value="ChannelPressure">
-                    <p:TypeAnnotation LastCategoryFullName="Enums" LastDependency="Enums.dll">
+                    <p:TypeAnnotation LastCategoryFullName="MidiUtilsEnums" LastDependency="MusicUtilEnums.dll">
                       <Choice Kind="TypeFlag" Name="MessageCommand" />
                     </p:TypeAnnotation>
                   </Pad>
@@ -23094,7 +23094,7 @@
                         <Pin Id="QAmGnKKdWoGLjTeEfhCm3s" Name="Command" Kind="OutputPin" />
                       </Node>
                       <Node Bounds="1871,1304,25,19" Id="I343gd2ztQQPZEL7KEooPA">
-                        <p:NodeReference LastCategoryFullName="Enums.MessageCommand" LastDependency="Enums.dll">
+                        <p:NodeReference LastCategoryFullName="MidiUtilsEnums.MessageCommand" LastDependency="MusicUtilEnums.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <CategoryReference Kind="AssemblyCategory" Name="MessageCommand" NeedsToBeDirectParent="true" />
                           <Choice Kind="OperationCallFlag" Name="=" />
@@ -23166,7 +23166,7 @@
                     <Pin Id="BOhEN5wMXhmQBTbdXp2p5B" Name="Result" Kind="OutputPin" />
                   </Node>
                   <Pad Id="UiVbkbdxBYJNU0QLXYOssZ" Comment="" Bounds="1872,1119,99,15" ShowValueBox="true" isIOBox="true" Value="NoteOn">
-                    <p:TypeAnnotation LastCategoryFullName="Enums" LastDependency="Enums.dll">
+                    <p:TypeAnnotation LastCategoryFullName="MidiUtilsEnums" LastDependency="MusicUtilEnums.dll">
                       <Choice Kind="TypeFlag" Name="MessageCommand" />
                     </p:TypeAnnotation>
                   </Pad>
@@ -23272,7 +23272,7 @@
                     <Pin Id="GtEkHPkEZYXPhrm59K5HJu" Name="Output" Kind="StateOutputPin" />
                   </Node>
                   <Node Bounds="262,1883,25,19" Id="ARFdjluX0foQO7MCabesxF">
-                    <p:NodeReference LastCategoryFullName="Enums.MessageCommand" LastDependency="Enums.dll">
+                    <p:NodeReference LastCategoryFullName="MidiUtilsEnums.MessageCommand" LastDependency="MusicUtilEnums.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <CategoryReference Kind="AssemblyCategory" Name="MessageCommand" NeedsToBeDirectParent="true" />
                       <Choice Kind="OperationCallFlag" Name="=" />
@@ -23339,7 +23339,7 @@
                     <Pin Id="PXTju8kGm2SNKvidOVEUyH" Name="Command" Kind="OutputPin" />
                   </Node>
                   <Node Bounds="317,1188,25,19" Id="LsrHoPtMVDlMcRHrVkKe55">
-                    <p:NodeReference LastCategoryFullName="Enums.MessageCommand" LastDependency="Enums.dll">
+                    <p:NodeReference LastCategoryFullName="MidiUtilsEnums.MessageCommand" LastDependency="MusicUtilEnums.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <CategoryReference Kind="AssemblyCategory" Name="MessageCommand" NeedsToBeDirectParent="true" />
                       <Choice Kind="OperationCallFlag" Name="=" />
@@ -23436,7 +23436,7 @@
                     <Pin Id="GgCAa5xO3vRP0lnczLD0Wn" Name="Command" Kind="OutputPin" />
                   </Node>
                   <Node Bounds="483,1188,27,19" Id="F1Dg9UePpSlL0D4gLLTl7T">
-                    <p:NodeReference LastCategoryFullName="Enums.MessageCommand" LastDependency="Enums.dll">
+                    <p:NodeReference LastCategoryFullName="MidiUtilsEnums.MessageCommand" LastDependency="MusicUtilEnums.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <CategoryReference Kind="AssemblyCategory" Name="MessageCommand" NeedsToBeDirectParent="true" />
                       <Choice Kind="OperationCallFlag" Name="!=" />
@@ -23473,7 +23473,7 @@
                     <Pin Id="GyiBmrKJicFPXVfGL1uatr" Name="Command" Kind="OutputPin" />
                   </Node>
                   <Node Bounds="945,748,25,19" Id="C8HnIqaAo9BP6UQyP3vQtC">
-                    <p:NodeReference LastCategoryFullName="Enums.MessageCommand" LastDependency="Enums.dll">
+                    <p:NodeReference LastCategoryFullName="MidiUtilsEnums.MessageCommand" LastDependency="MusicUtilEnums.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <CategoryReference Kind="AssemblyCategory" Name="MessageCommand" NeedsToBeDirectParent="true" />
                       <Choice Kind="OperationCallFlag" Name="=" />
@@ -23552,12 +23552,12 @@
               <Pad Id="AuTxojir5OXO5xvFqUm45H" Comment="" Bounds="824,1012,35,35" ShowValueBox="true" isIOBox="true" />
               <Pad Id="OUGrmNdJCFiMKD7BzxqXbu" Comment="Count" Bounds="716,970,35,15" ShowValueBox="true" isIOBox="true" />
               <Pad Id="ToKyTVUqGlnN8u7Hn5QI4E" Comment="" Bounds="419,359,99,15" ShowValueBox="true" isIOBox="true" Value="NoteOn">
-                <p:TypeAnnotation LastCategoryFullName="Enums" LastDependency="Enums.dll">
+                <p:TypeAnnotation LastCategoryFullName="MidiUtilsEnums" LastDependency="MusicUtilEnums.dll">
                   <Choice Kind="TypeFlag" Name="MessageCommand" />
                 </p:TypeAnnotation>
               </Pad>
               <Pad Id="Gn7VHj4WQN1P6hD0MBstxG" Comment="" Bounds="285,1759,99,15" ShowValueBox="true" isIOBox="true" Value="Controller">
-                <p:TypeAnnotation LastCategoryFullName="Enums" LastDependency="Enums.dll">
+                <p:TypeAnnotation LastCategoryFullName="MidiUtilsEnums" LastDependency="MusicUtilEnums.dll">
                   <Choice Kind="TypeFlag" Name="MessageCommand" />
                 </p:TypeAnnotation>
               </Pad>
@@ -24295,8 +24295,8 @@
     </Node>
     <Slot Id="Rt9CP4AVeXiLMTYfhq78qm" Name="Result" />
   </Patch>
-  <NugetDependency Id="JRs0Wys6mnULopMfOWdH80" Location="VL.CoreLib" Version="2024.6.0-0147-g1e8546b10d" />
+  <NugetDependency Id="JRs0Wys6mnULopMfOWdH80" Location="VL.CoreLib" Version="2024.6.0-0156-g47917ea4e3" />
   <NugetDependency Id="GGwDSaNjWrHLociSvnLKUU" Location="VL.IO.Midi" Version="1.0.11" />
-  <NugetDependency Id="DpTEPvypp5XN5HhUX66E1e" Location="VL.Skia" Version="2024.6.0-0147-g1e8546b10d" />
-  <PlatformDependency Id="NDI2Zro77cEOsriilmZfbW" Location="./src/Enums/bin/Debug/netstandard2.0/Enums.dll" />
+  <NugetDependency Id="DpTEPvypp5XN5HhUX66E1e" Location="VL.Skia" Version="2024.6.0-0156-g47917ea4e3" />
+  <PlatformDependency Id="FvKnwnaWlRHPNzK8xfgkkF" Location="./src/Enums/obj/Debug/netstandard2.0/MusicUtilEnums.dll" />
 </Document>

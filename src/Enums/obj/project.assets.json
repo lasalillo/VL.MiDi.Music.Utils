@@ -186,9 +186,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\VL.MiDi.Music.Utils\\src\\Enums\\Enums.csproj",
-      "projectName": "Enums",
-      "projectPath": "D:\\Projects\\VL.MiDi.Music.Utils\\src\\Enums\\Enums.csproj",
+      "projectUniqueName": "D:\\Projects\\VL.MiDi.Music.Utils\\src\\Enums\\MusicUtilEnums.csproj",
+      "projectName": "MusicUtilEnums",
+      "projectPath": "D:\\Projects\\VL.MiDi.Music.Utils\\src\\Enums\\MusicUtilEnums.csproj",
       "packagesPath": "C:\\Users\\arist\\.nuget\\packages\\",
       "outputPath": "D:\\Projects\\VL.MiDi.Music.Utils\\src\\Enums\\obj\\",
       "projectStyle": "PackageReference",
