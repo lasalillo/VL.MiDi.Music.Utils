@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="V3fBUEQZTsUM3Upz3ySkj3" LanguageVersion="2024.6.0-0139-g74911af44e" Version="0.128">
-  <NugetDependency Id="Dv3gCY2LkI8PDvOEF7KRVd" Location="VL.CoreLib" Version="2024.6.0-0139-g74911af44e" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="V3fBUEQZTsUM3Upz3ySkj3" LanguageVersion="2024.6.0-0156-g47917ea4e3" Version="0.128">
+  <NugetDependency Id="Dv3gCY2LkI8PDvOEF7KRVd" Location="VL.CoreLib" Version="2024.6.0-0156-g47917ea4e3" />
   <Patch Id="EjYs1rrZBe4NZlMiJn1y4q">
     <Canvas Id="HTXJWDaWKKcOMNabTyJ7WS" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -33,7 +33,7 @@
             <Pin Id="MgDl0i8bUgWPNdCL6raTWW" Name="Maximum" Kind="InputPin" />
             <Pin Id="PHvIuqwf3EyLG6HYr3Ng7l" Name="LoopMode" Kind="InputPin" />
             <Pin Id="EumlYohvWYLMYB8B8gUd9b" Name="LoopEnable" Kind="InputPin" />
-            <Pin Id="OpVga1arj0AQScqQ1reqKA" Name="Enable" Kind="InputPin" />
+            <Pin Id="SRHNvUjQyUwPpKPpKFvKcb" Name="Enable" Kind="InputPin" IsHidden="true" />
             <Pin Id="LL8OzDsz2xJOHR8ozhO2P1" Name="BPM Frame Clock Observable" Kind="OutputPin" />
             <Pin Id="EUV38fqfsqmLNyXIPVKswz" Name="BPM" Kind="OutputPin" />
             <Pin Id="Hoqd2RHcDLmOByjH5qGw0U" Name="On Transport Update" Kind="OutputPin" />
@@ -296,18 +296,15 @@
                   <Choice Kind="ProcessAppFlag" Name="NoteGenerator" />
                 </p:NodeReference>
                 <Pin Id="RW0OBlS6pfvPR6iRYgHpI8" Name="Node Context" Kind="InputPin" IsHidden="true" />
-                <Pin Id="BPvOWaYrAP2MN8pQg7yIOW" Name="Current Division" Kind="InputPin" />
-                <Pin Id="MR1KG1XXrlUOmuMSBf9Ieu" Name="Division Pulses" Kind="InputPin" />
-                <Pin Id="MedneKOEuMqLvPBufpzdh9" Name="DivisionLength" Kind="InputPin" />
+                <Pin Id="BvGY9aRBxznOFdXU8QZxPE" Name="Index" Kind="InputPin" />
+                <Pin Id="HhqM7inmQ62NTOcYnaiaVI" Name="Step Frame" Kind="InputPin" />
+                <Pin Id="IzBXYmwQr3NPA33G6ebke0" Name="Step Length" Kind="InputPin" />
                 <Pin Id="LB0Inx8sHZcMQtmZoVKqRw" Name="Midi Channel" Kind="InputPin" />
                 <Pin Id="J94kVOkqFX5NW7iFSQzpcr" Name="NoteList" Kind="InputPin" />
                 <Pin Id="FjZO7bTDwpmLeZYLuiZUDq" Name="VelocityList" Kind="InputPin" />
                 <Pin Id="MSExD7whocPMrZ6XvOX9yy" Name="NoteLength" Kind="InputPin" />
                 <Pin Id="FWE0o1zEdBnPhlJE1CtwaJ" Name="Output" Kind="OutputPin" />
                 <Pin Id="H61MgTDfBSRNWP4MaMiZRl" Name="Trigger" Kind="OutputPin" />
-                <Pin Id="BvGY9aRBxznOFdXU8QZxPE" Name="Index" Kind="InputPin" />
-                <Pin Id="HhqM7inmQ62NTOcYnaiaVI" Name="Step Frame" Kind="InputPin" />
-                <Pin Id="IzBXYmwQr3NPA33G6ebke0" Name="Step Length" Kind="InputPin" />
               </Node>
               <Node Bounds="812,1064,57,19" Id="ONqhw0v3uNsOK5fSnR9Rz9">
                 <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
@@ -345,7 +342,7 @@
               </Node>
             </Patch>
           </Node>
-          <Pad Id="Nw7yba6eyBQONc80rm8EKr" Comment="GrooveAmount" Bounds="633,942,144,15" ShowValueBox="true" isIOBox="true" Value="0.39999974">
+          <Pad Id="Nw7yba6eyBQONc80rm8EKr" Comment="GrooveAmount" Bounds="633,942,144,15" ShowValueBox="true" isIOBox="true" Value="0.5">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
@@ -495,5 +492,5 @@
     </Node>
   </Patch>
   <NugetDependency Id="FIKtRDio8puMN4suHiUm7e" Location="VL.IO.Midi" Version="1.0.11" />
-  <NugetDependency Id="EYhnOhRJV7GMZLf8jWsgL6" Location="VL.MiDi.Music.Utils" Version="1.0.3" />
+  <NugetDependency Id="G5vyQjLnNUiOJqYAkZlaS2" Location="VL.MiDi.Music.Utils" Version="1.0.4" />
 </Document>
