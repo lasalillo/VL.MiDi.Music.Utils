@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="NkM7NiXqHnfNrF96QBBWlt" LanguageVersion="2024.6.0-0203-gf9bb287561" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="OMV1G45YiDyQOc7jbHyhSL" LanguageVersion="2024.6.0-0203-gf9bb287561" Version="0.128">
   <Patch Id="CtVOk7fTccYNgnvRo3er17">
     <Canvas Id="QrzIhKHbxxOLPRJyCpIsc4" DefaultCategory="Music.MIDI.Utils" CanvasType="FullCategory">
       <Canvas Id="Ohy1sggMhsDPMze7VTOPtt" Name="Operations" Position="312,517">
@@ -4629,8 +4629,6 @@
           </p:NodeReference>
           <Patch Id="QIeGmyQqCV0M49uB7lD3gb">
             <Canvas Id="CxEtauMyWnQP13GdmPMLUQ" CanvasType="Group">
-              <ControlPoint Id="EoBhx3UkOEfMFSCPBqBhBa" Bounds="292,89" />
-              <ControlPoint Id="AnF1htbbXUgLaFKMXRkGQk" Bounds="498,82" />
               <Node Bounds="289,147,76,19" Id="TFZkHThkLoVNcg8WDtNVxE">
                 <p:NodeReference LastCategoryFullName="Music.MIDI.Utils.Operations" LastDependency="VL.MiDi.Music.Utils.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -4670,30 +4668,19 @@
                 <Pin Id="K2jcoIWGqanMUdCNiEIlwV" Name="Result" Kind="OutputPin" />
               </Node>
               <ControlPoint Id="UXeV8611F24PVlocU5drdf" Bounds="289,302" />
+              <ControlPoint Id="Oqm9irstPtqMBVuPKQPEFQ" Bounds="295,96" />
+              <ControlPoint Id="SmWjHOKa0IxQHqjuNl42M2" Bounds="357,96" />
             </Canvas>
             <ProcessDefinition Id="JWPGkC5iG9tNF2ESB5pqAX">
               <Fragment Id="TRR6Fg2IK4uNjXbano4CK3" Patch="Jor3EWo4SCFLl1psF3jc1P" Enabled="true" />
               <Fragment Id="Tl35TX75v2xLt7vHb7UCui" Patch="AeTRQxcvBniOcWGuoWGisk" Enabled="true" />
             </ProcessDefinition>
-            <Link Id="AB8gPkm6r0xLEuym8veyKI" Ids="TXc1t7iZ84ROwkHMWzUOH6,EoBhx3UkOEfMFSCPBqBhBa" IsHidden="true" />
             <Patch Id="Jor3EWo4SCFLl1psF3jc1P" Name="Create" />
             <Patch Id="AeTRQxcvBniOcWGuoWGisk" Name="Update">
-              <Pin Id="TXc1t7iZ84ROwkHMWzUOH6" Name="Value" Kind="InputPin">
-                <p:TypeAnnotation LastCategoryFullName="Reactive" LastDependency="VL.CoreLib.vl">
-                  <Choice Kind="TypeFlag" Name="Observable" />
-                  <p:TypeArguments>
-                    <TypeReference>
-                      <Choice Kind="TypeFlag" Name="MidiMessage" />
-                    </TypeReference>
-                  </p:TypeArguments>
-                </p:TypeAnnotation>
-              </Pin>
-              <Pin Id="J4uqro5e5UzLpqLXosObx0" Name="Channel" Kind="InputPin" />
               <Pin Id="ET2Op5PPXBWMqmpp73TqvV" Name="Result" Kind="OutputPin" />
+              <Pin Id="H0n5KlwNya9QARwT7fWUUq" Name="Input" Kind="InputPin" />
+              <Pin Id="EHFBY2hSwFWMRHTFeJHBYk" Name="Midi Channel" Kind="InputPin" />
             </Patch>
-            <Link Id="NU7saqOmf09QajbJsw050K" Ids="J4uqro5e5UzLpqLXosObx0,AnF1htbbXUgLaFKMXRkGQk" IsHidden="true" />
-            <Link Id="TuVI8TBKky1NfzGMFUO682" Ids="EoBhx3UkOEfMFSCPBqBhBa,RPRH85UIPTWNKCz63KXc3L" />
-            <Link Id="PxulGx7nkJwPVstIzE74WG" Ids="AnF1htbbXUgLaFKMXRkGQk,QLpcpZYPnSmOH5DBXrnkDd" />
             <Link Id="SSV5QdhWnWbP9qqCuxfhLl" Ids="H3SWnP3XxtAQUW9WanlDgQ,IYsFGrRfTysN7uhROpOAi8" IsHidden="true" />
             <Link Id="LpCMlJSzRefNNauGG8qu8B" Ids="FbV1lrdlXULMuuApqud4SE,GeA4UlG3X5ZPCsLqNqe30w" IsHidden="true" />
             <Link Id="TWdoT8o983mLDzWmYlwWgn" Ids="IYsFGrRfTysN7uhROpOAi8,U4wAYHBQoIMNC9cQGIlYF3" />
@@ -4701,6 +4688,10 @@
             <Link Id="TmcjCJyBCNePSkFtv3G495" Ids="RVGxXdQFOO5M96AKM6voPt,Q3nxXG7TvIHMlMdQFTgy5G" />
             <Link Id="QvTqtQm8wsZOhltfdmUylJ" Ids="K2jcoIWGqanMUdCNiEIlwV,UXeV8611F24PVlocU5drdf" />
             <Link Id="TP7rInxslSKO9KwNu6Q4R4" Ids="UXeV8611F24PVlocU5drdf,ET2Op5PPXBWMqmpp73TqvV" IsHidden="true" />
+            <Link Id="CRFBSDIRZ28LQaF9uEQjNK" Ids="Oqm9irstPtqMBVuPKQPEFQ,RPRH85UIPTWNKCz63KXc3L" />
+            <Link Id="LlIljqXCg7bPD0fK1Ixo4u" Ids="H0n5KlwNya9QARwT7fWUUq,Oqm9irstPtqMBVuPKQPEFQ" IsHidden="true" />
+            <Link Id="FUAbvyIqCtmL63I5yQMVXM" Ids="SmWjHOKa0IxQHqjuNl42M2,QLpcpZYPnSmOH5DBXrnkDd" />
+            <Link Id="CbHWzLBJ92XOzzPlbvuewZ" Ids="EHFBY2hSwFWMRHTFeJHBYk,SmWjHOKa0IxQHqjuNl42M2" IsHidden="true" />
           </Patch>
         </Node>
         <!--
@@ -4802,8 +4793,8 @@
             <Canvas Id="KERQbYl0crDLT2jaGMw0E6" CanvasType="Group">
               <ControlPoint Id="PeBvc6AaNnuMFTAaQhxBk5" Bounds="203,204" />
               <ControlPoint Id="PfOSL9KO0pyLUcm22E4QZW" Bounds="200,555" />
-              <ControlPoint Id="TrGDr9SM89tLXoG2laZppn" Bounds="493,204" />
-              <ControlPoint Id="UjyXnUcZWE6OXPlCy4CS2A" Bounds="320,204" />
+              <ControlPoint Id="TrGDr9SM89tLXoG2laZppn" Bounds="313,204" />
+              <ControlPoint Id="UjyXnUcZWE6OXPlCy4CS2A" Bounds="253,203" />
               <Node Bounds="198,290,77,19" Id="VpxOtV9pOULPJccZMHk16V">
                 <p:NodeReference LastCategoryFullName="Music.MIDI.Utils.Operations" LastDependency="VL.MiDi.Music.Utils.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -4893,8 +4884,8 @@
             <Canvas Id="KMyZn4bzfi1Pq2IYVMojdm" CanvasType="Group">
               <ControlPoint Id="SHd4MwIHv61LkORU5qNkgl" Bounds="236,204" />
               <ControlPoint Id="TfNSOfrHIUzOnN2Jav2PDP" Bounds="234,440" />
-              <ControlPoint Id="RvrMEnd0r3BPmFzR0qRZn2" Bounds="493,204" />
-              <ControlPoint Id="OBCRgT71zeQPgxlGUbBNLY" Bounds="320,204" />
+              <ControlPoint Id="RvrMEnd0r3BPmFzR0qRZn2" Bounds="344,205" />
+              <ControlPoint Id="OBCRgT71zeQPgxlGUbBNLY" Bounds="283,204" />
               <Node Bounds="236,238,66,19" Id="VOXONkkKzDWNJ18H5Rrkvc">
                 <p:NodeReference LastCategoryFullName="Music.MIDI.Utils.Operations" LastDependency="VL.MiDi.Music.Utils.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -4984,8 +4975,8 @@
             <Canvas Id="A8iCq40vfOkMirYrvgAgZG" CanvasType="Group">
               <ControlPoint Id="NlAHBQyCIaHPahOm8YwMgR" Bounds="196,204" />
               <ControlPoint Id="MJ31KpNGtliPG3l0ONZ4Ny" Bounds="189,561" />
-              <ControlPoint Id="NlJruAE2byvQCXed8zIlRa" Bounds="493,204" />
-              <ControlPoint Id="Vks8iMFh2ZcM31ndvfdzfx" Bounds="320,204" />
+              <ControlPoint Id="NlJruAE2byvQCXed8zIlRa" Bounds="306,204" />
+              <ControlPoint Id="Vks8iMFh2ZcM31ndvfdzfx" Bounds="245,204" />
               <Node Bounds="195,314,89,19" Id="NdjRsSTEzl0LQhJyDCozML">
                 <p:NodeReference LastCategoryFullName="Music.MIDI.Utils.Operations" LastDependency="VL.MiDi.Music.Utils.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
