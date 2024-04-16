@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="IcpYXjJZOH7LA7S3sTbR8U" LanguageVersion="2024.6.0-0261-g38f7059b02" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="IcpYXjJZOH7LA7S3sTbR8U" LanguageVersion="2024.6.3-0005-g72dc3a29e4" Version="0.128">
   <Patch Id="CtVOk7fTccYNgnvRo3er17">
     <Canvas Id="QrzIhKHbxxOLPRJyCpIsc4" DefaultCategory="Music.MIDI.Utils" CanvasType="FullCategory">
       <Canvas Id="Ohy1sggMhsDPMze7VTOPtt" Name="Operations" Position="312,517">
@@ -22799,8 +22799,6 @@
                 <ControlPoint Id="QvSluwzL97zNXMSpP1qdFD" Bounds="406,867" Alignment="Bottom" />
                 <ControlPoint Id="LKAlSIO0RweLU3j6qbnIQc" Bounds="455,867" Alignment="Bottom" />
                 <Patch Id="KeD4UtxStTcN7Gel5oIuXX" ManuallySortedPins="true">
-                  <Patch Id="ANo2tgxgAUcOurPuB5kWJJ" Name="Create" ManuallySortedPins="true" />
-                  <Patch Id="HbBLJmSREfgPFxseziHtx2" Name="Update" ParticipatingElements="VkqG54DXQZ9N4IxcIMMC5V" ManuallySortedPins="true" />
                   <Node Bounds="354,790,242,26" Id="EOIQV07dRzhNhvjz3A7zyK">
                     <p:NodeReference LastCategoryFullName="Music.MIDI.Utils.MiDiMessage.MessageList" LastDependency="VL.MiDi.Music.Utils.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -22831,6 +22829,9 @@
                     <Pin Id="OmJrDKSPyogPntPi9R5S17" Name="OnNoteOn" Kind="OutputPin" IsHidden="true" />
                     <Pin Id="BBWc1eLz9TpOHoDQ3saBpF" Name="OnNoteOff" Kind="OutputPin" IsHidden="true" />
                   </Node>
+                  <Patch Id="ANo2tgxgAUcOurPuB5kWJJ" Name="Create" ManuallySortedPins="true" />
+                  <Patch Id="HbBLJmSREfgPFxseziHtx2" Name="Update" ParticipatingElements="VkqG54DXQZ9N4IxcIMMC5V" ManuallySortedPins="true" />
+                  <Patch Id="E99HzsawssMPVbdTwHeiw7" Name="Dispose" />
                 </Patch>
               </Node>
               <Pad Id="V5ZNqjKwB35Od8XXGwvrCV" Comment="Error Message" Bounds="527,907,292,15" ShowValueBox="true" isIOBox="true" />
@@ -25238,6 +25239,44 @@
           </Patch>
         </Node>
       </Canvas>
+      <Canvas Id="D1rawCHmTc7MOfifMIzGOt" Name="Enums" Position="312,769">
+        <!--
+
+    ************************ BooleanOperation ************************
+
+-->
+        <Node Name="BooleanOperation" Bounds="217,229" Id="Bk2LRP697XsOSlJqlPbFx3">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="MidiUtilsEnums" LastDependency="MusicUtilEnums.dll">
+            <Choice Kind="TypeFlag" Name="BooleanOperation" />
+          </p:TypeAnnotation>
+          <Patch Id="Tr6zJpWKUJSOcUZ3QC2zjE">
+            <Canvas Id="RBk26vmw8PvQJ2nMEpSewA" BordersChecked="false" CanvasType="Group" />
+            <ProcessDefinition Id="NAn6BtjThKcL4LH9hSp9JI" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ MessageCommand ************************
+
+-->
+        <Node Name="MessageCommand" Bounds="217,273" Id="P0t1Hq2MnbjPyu4Oyxvqy0">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="MidiUtilsEnums" LastDependency="MusicUtilEnums.dll">
+            <Choice Kind="TypeFlag" Name="MessageCommand" />
+          </p:TypeAnnotation>
+          <Patch Id="DBLfUT9BexJL2LLAMV3pTw">
+            <Canvas Id="VDM8TmTD6JcMOsArvgXiz5" BordersChecked="false" CanvasType="Group" />
+            <ProcessDefinition Id="N4n7B5HHAJ8PKmimcHqzvm" IsHidden="true" />
+          </Patch>
+        </Node>
+      </Canvas>
     </Canvas>
     <!--
 
@@ -25261,8 +25300,8 @@
     </Node>
     <Slot Id="Rt9CP4AVeXiLMTYfhq78qm" Name="Result" />
   </Patch>
-  <NugetDependency Id="JRs0Wys6mnULopMfOWdH80" Location="VL.CoreLib" Version="2024.6.0-0261-g38f7059b02" />
-  <NugetDependency Id="GGwDSaNjWrHLociSvnLKUU" Location="VL.IO.Midi" Version="1.1.0" />
-  <NugetDependency Id="DpTEPvypp5XN5HhUX66E1e" Location="VL.Skia" Version="2024.6.0-0261-g38f7059b02" />
-  <PlatformDependency Id="FvKnwnaWlRHPNzK8xfgkkF" Location="./src/Enums/obj/Debug/netstandard2.0/MusicUtilEnums.dll" />
+  <NugetDependency Id="JRs0Wys6mnULopMfOWdH80" Location="VL.CoreLib" Version="2024.6.3-0005-g72dc3a29e4" />
+  <NugetDependency Id="GGwDSaNjWrHLociSvnLKUU" Location="VL.IO.Midi" Version="1.1.1" />
+  <NugetDependency Id="DpTEPvypp5XN5HhUX66E1e" Location="VL.Skia" Version="2024.6.3-0005-g72dc3a29e4" />
+  <PlatformDependency Id="CececrPKW8kNVpchxgweT2" Location="./lib/netstandard2.0/MusicUtilEnums.dll" />
 </Document>

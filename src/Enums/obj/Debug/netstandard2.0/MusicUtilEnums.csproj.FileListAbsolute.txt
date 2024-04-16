@@ -1,10 +1,9 @@
-D:\Projects\VL.MiDi.Music.Utils\src\Enums\bin\Debug\netstandard2.0\MusicUtilEnums.deps.json
-D:\Projects\VL.MiDi.Music.Utils\src\Enums\bin\Debug\netstandard2.0\MusicUtilEnums.dll
-D:\Projects\VL.MiDi.Music.Utils\src\Enums\bin\Debug\netstandard2.0\MusicUtilEnums.pdb
+D:\Projects\VL.MiDi.Music.Utils\lib\netstandard2.0\MusicUtilEnums.deps.json
+D:\Projects\VL.MiDi.Music.Utils\lib\netstandard2.0\MusicUtilEnums.dll
+D:\Projects\VL.MiDi.Music.Utils\lib\netstandard2.0\MusicUtilEnums.pdb
 D:\Projects\VL.MiDi.Music.Utils\src\Enums\obj\Debug\netstandard2.0\MusicUtilEnums.csproj.AssemblyReference.cache
 D:\Projects\VL.MiDi.Music.Utils\src\Enums\obj\Debug\netstandard2.0\MusicUtilEnums.GeneratedMSBuildEditorConfig.editorconfig
 D:\Projects\VL.MiDi.Music.Utils\src\Enums\obj\Debug\netstandard2.0\MusicUtilEnums.AssemblyInfoInputs.cache
 D:\Projects\VL.MiDi.Music.Utils\src\Enums\obj\Debug\netstandard2.0\MusicUtilEnums.AssemblyInfo.cs
 D:\Projects\VL.MiDi.Music.Utils\src\Enums\obj\Debug\netstandard2.0\MusicUtilEnums.csproj.CoreCompileInputs.cache
-D:\Projects\VL.MiDi.Music.Utils\src\Enums\obj\Debug\netstandard2.0\MusicUtilEnums.dll
 D:\Projects\VL.MiDi.Music.Utils\src\Enums\obj\Debug\netstandard2.0\MusicUtilEnums.pdb
