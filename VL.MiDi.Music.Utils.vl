@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="IcpYXjJZOH7LA7S3sTbR8U" LanguageVersion="2024.6.7-0003-gda7bfe6f68" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="IcpYXjJZOH7LA7S3sTbR8U" LanguageVersion="2024.6.7-0181-gdf16f593e1" Version="0.128">
   <Patch Id="CtVOk7fTccYNgnvRo3er17">
     <Canvas Id="QrzIhKHbxxOLPRJyCpIsc4" DefaultCategory="Music.MIDI.Utils" CanvasType="FullCategory">
       <Canvas Id="Ohy1sggMhsDPMze7VTOPtt" Name="Operations" Position="312,517">
@@ -16161,6 +16161,7 @@
                 <Pin Id="IvKPjFOVjDjQHrsZyO7X5h" Name="&lt;&lt;" Kind="InputPin" />
                 <Pin Id="DeyKD1GyNAcN043PByB4Kz" Name="&gt;&gt;" Kind="InputPin" />
                 <Pin Id="U4I0Qkx8kdAOMxi2Egz06C" Name="Output" Kind="OutputPin" />
+                <Pin Id="H2GoZCvoro6OI6cpDfmYQA" Name="Filter Time" Kind="InputPin" />
               </Node>
               <Pad Id="O9Wkd7DYGUGMYxdAZxLZJV" Comment="" Bounds="339,856,20,19" ShowValueBox="true" isIOBox="true" Value="9">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -16246,6 +16247,7 @@
                 <Pin Id="FIccKdf5VgnNxjWXb5fAol" Name="Output" Kind="OutputPin" />
               </Node>
               <ControlPoint Id="C5anhbUCCG8NmifRsu2jC6" Bounds="410,1139" />
+              <ControlPoint Id="PVXFFXgO7glMX4dLDovM7w" Bounds="532,774" />
             </Canvas>
             <ProcessDefinition Id="Rl6QmBl8JyxM3A3ctMnpXQ">
               <Fragment Id="CxUuoelWRRAOgCtuUN6fm2" Patch="RKibol6WMBHOKn8soLw4a3" Enabled="true" />
@@ -16337,6 +16339,7 @@
                   <Choice Kind="TypeFlag" Name="Float32" />
                 </p:TypeAnnotation>
               </Pin>
+              <Pin Id="SVOhWeeBVYNMZ6RPztYYz0" Name="Filter Time" Kind="InputPin" />
               <Pin Id="UPuDrORG6UsMyXtGvRBQCG" Name="Reset" Kind="InputPin" DefaultValue="False">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="TypeFlag" Name="Boolean" />
@@ -16364,6 +16367,8 @@
             <Link Id="BgKNmto837lNlvSLb1Mig0" Ids="NsiCYehaM8KOMC8yqQHQpf,K99P9LjotmRMEJJIuoxuaF" />
             <Link Id="AfsihLMI71iMUs9w48fHHe" Ids="HPwVoBApxWeMf3Nb5OeJAk,C5anhbUCCG8NmifRsu2jC6" />
             <Link Id="SAC0KH3YSPLLSKivsVlB5y" Ids="VOCgekyadnQMBe7BuckYkG,KQFKyVeIKfjNJEJ9JUGg1A" />
+            <Link Id="AeAoZ4EUhHrLezEOAM1a6V" Ids="PVXFFXgO7glMX4dLDovM7w,H2GoZCvoro6OI6cpDfmYQA" />
+            <Link Id="SKrHDS3BkR3MZlBzDDdsiN" Ids="SVOhWeeBVYNMZ6RPztYYz0,PVXFFXgO7glMX4dLDovM7w" IsHidden="true" />
           </Patch>
         </Node>
         <Canvas Id="M8Mma4aBYocOuCPU5uoWBE" Name="Internal" Position="216,274">
@@ -17131,7 +17136,7 @@
                   <Pin Id="KjXsWEj3caPPLAVtTtQKlT" Name="Input 2" Kind="InputPin" />
                   <Pin Id="R91rtiWTgnTNUxzr9RE4Ch" Name="Output" Kind="OutputPin" />
                 </Node>
-                <Node Bounds="236,598,16,19" Id="HoribnD7abfNKuFdd6iUMi">
+                <Node Bounds="236,598,22,19" Id="HoribnD7abfNKuFdd6iUMi">
                   <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="- (Negate)" />
@@ -17140,6 +17145,7 @@
                   <Pin Id="HaWVD2aIDaPQY1A01bpGiv" Name="Output" Kind="OutputPin" />
                 </Node>
                 <ControlPoint Id="CLYoTHCFP6gMDyuUTBCwxz" Bounds="241,694" />
+                <ControlPoint Id="J65bX2wijqZQcQEdfUlEoC" Bounds="344,456" />
               </Canvas>
               <ProcessDefinition Id="JkqysPgL2GyOIII0ZAjblc">
                 <Fragment Id="EceV4PtF9AGOoFnWrNWNV5" Patch="QDQH82oxnxaM2QrWz9mlfP" Enabled="true" />
@@ -17171,7 +17177,11 @@
                   </p:TypeAnnotation>
                 </Pin>
                 <Pin Id="GixB444Bf5APkKQtCz9w9I" Name="Output" Kind="OutputPin" />
+                <Pin Id="A2coSRl92wBNNDMLGwrKGB" Name="Filter Time" Kind="InputPin" DefaultValue="0" />
               </Patch>
+              <Link Id="HrS0KPrj56fOGkvVTQthPx" Ids="J65bX2wijqZQcQEdfUlEoC,AAeMDD3TVwfP9yqYNTpTPj" />
+              <Link Id="Ry98ohHpPMaP4gzZNhpuKT" Ids="A2coSRl92wBNNDMLGwrKGB,J65bX2wijqZQcQEdfUlEoC" IsHidden="true" />
+              <Link Id="OqpGnLyHXCqMJlypcoWNO8" Ids="J65bX2wijqZQcQEdfUlEoC,ETxz4LmYGrMMu5PBnM4tAh" />
             </Patch>
           </Node>
           <!--
@@ -25527,8 +25537,8 @@
     </Node>
     <Slot Id="Rt9CP4AVeXiLMTYfhq78qm" Name="Result" />
   </Patch>
-  <NugetDependency Id="JRs0Wys6mnULopMfOWdH80" Location="VL.CoreLib" Version="2024.6.7-0003-gda7bfe6f68" />
+  <NugetDependency Id="JRs0Wys6mnULopMfOWdH80" Location="VL.CoreLib" Version="2024.6.7-0181-gdf16f593e1" />
   <NugetDependency Id="GGwDSaNjWrHLociSvnLKUU" Location="VL.IO.Midi" Version="1.1.1" />
-  <NugetDependency Id="DpTEPvypp5XN5HhUX66E1e" Location="VL.Skia" Version="2024.6.7-0003-gda7bfe6f68" />
+  <NugetDependency Id="DpTEPvypp5XN5HhUX66E1e" Location="VL.Skia" Version="2024.6.7-0181-gdf16f593e1" />
   <PlatformDependency Id="CececrPKW8kNVpchxgweT2" Location="./lib/netstandard2.0/MusicUtilEnums.dll" />
 </Document>
