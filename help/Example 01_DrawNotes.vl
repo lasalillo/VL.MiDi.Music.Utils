@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="NLNXzHR8AXtN44TRXr854q" LanguageVersion="2024.6.7-0235-g5172ef47fd" Version="0.128">
-  <NugetDependency Id="UzjownmmIT3NXplVrTbB8U" Location="VL.CoreLib" Version="2024.6.7-0235-g5172ef47fd" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="NLNXzHR8AXtN44TRXr854q" LanguageVersion="2024.6.7-0236-g33a4a9999e" Version="0.128">
+  <NugetDependency Id="UzjownmmIT3NXplVrTbB8U" Location="VL.CoreLib" Version="2024.6.7-0236-g33a4a9999e" />
   <Patch Id="FSMA5f5D2noME1nrJdEZAn">
     <Canvas Id="Oy0uFoYvy6sLMryVT0TYmH" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -62,13 +62,40 @@
               <Choice Kind="ProcessAppFlag" Name="PianoRollMonitor" />
             </p:NodeReference>
             <Pin Id="KewBzkiHuHyMFPSoB2tdwO" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="L6oPoJJythxPXpC4pgjw9P" Name="Bounds" Kind="InputPin" DefaultValue="1014, 54, 426, 446" IsHidden="true" />
+            <Pin Id="Qtt2seNszspQWDz0NEuvgk" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
             <Pin Id="CL0CJ7fxdvqPmNXNVxw63Q" Name="Input" Kind="InputPin" />
+            <Pin Id="Uad5t4YDpnGP9jmtLgNYvd" Name="Title" Kind="InputPin" IsHidden="true" />
+            <Pin Id="CO8VfqEDKxUOC8vWfLsowy" Name="Color" Kind="InputPin" IsHidden="true" />
             <Pin Id="EPFeoThtxVfP0WDUakys5J" Name="Channel Filter" Kind="InputPin" />
+            <Pin Id="LmKyM6fb1S4MB2onu78BNm" Name="Space" Kind="InputPin" IsHidden="true" />
+            <Pin Id="LAvuksAGo7MOzc6Y9227QS" Name="Show Cursor" Kind="InputPin" IsHidden="true" />
+            <Pin Id="G16oBxGvQtZLvv8BzX8FX2" Name="VSync" Kind="InputPin" IsHidden="true" />
+            <Pin Id="OzgeLaezFBrNlcf5LLNS87" Name="Transform" Kind="InputPin" IsHidden="true" />
+            <Pin Id="J7fGNkg1HdGM151bQpIezF" Name="ClientBounds" Kind="OutputPin" IsHidden="true" />
           </Node>
           <Pad Id="QiPQC2HlccHNuSrVkN2uCe" Comment="Channel Filter" Bounds="285,474,35,15" ShowValueBox="true" isIOBox="true" Value="0">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="IVFyfyTVNhNPZ49a7pTwsh" Bounds="187,570,265,19" ShowValueBox="true" isIOBox="true" Value="Right Click in the node to enable hiden pins">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="OkBZ6LZz4LkPO9Dr9fCv7G" Bounds="285,495,137,19" ShowValueBox="true" isIOBox="true" Value="Channel = -1 no filter">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
           </Pad>
         </Canvas>
         <Patch Id="EjNPrWJf2y9QESTLxB0g8S" Name="Create" />
@@ -87,8 +114,8 @@
     </Node>
   </Patch>
   <NugetDependency Id="UDtAcgw6H1tLbzTY2Usfzu" Location="VL.IO.Midi" Version="1.1.1" />
-  <NugetDependency Id="Dryoaxy1KeLQUkgnpGhxug" Location="VL.Skia" Version="2024.6.7-0235-g5172ef47fd" />
-  <NugetDependency Id="UjDfBiQeSeoN7yJ0ksDHA3" Location="VL.CoreLib.Windows" Version="2024.6.7-0235-g5172ef47fd" />
+  <NugetDependency Id="Dryoaxy1KeLQUkgnpGhxug" Location="VL.Skia" Version="2024.6.7-0236-g33a4a9999e" />
+  <NugetDependency Id="UjDfBiQeSeoN7yJ0ksDHA3" Location="VL.CoreLib.Windows" Version="2024.6.7-0236-g33a4a9999e" />
   <PlatformDependency Id="MPvW9OIMndANIbsYXXFjvD" Location="System.Windows.Forms" />
-  <NugetDependency Id="MYk6JZlXtT7NjvimYz5hrC" Location="VL.MiDi.Music.Utils" Version="1.1.4" />
+  <NugetDependency Id="MYk6JZlXtT7NjvimYz5hrC" Location="VL.MiDi.Music.Utils" Version="1.1.5" />
 </Document>
