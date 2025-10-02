@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="IcpYXjJZOH7LA7S3sTbR8U" LanguageVersion="2025.7.0-0237-g28be6f4100" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="IcpYXjJZOH7LA7S3sTbR8U" LanguageVersion="2025.7.0-0369-g117540fa59" Version="0.128">
   <Patch Id="CtVOk7fTccYNgnvRo3er17">
     <Canvas Id="QrzIhKHbxxOLPRJyCpIsc4" DefaultCategory="Music.MIDI.Utils" CanvasType="FullCategory">
       <Canvas Id="Ohy1sggMhsDPMze7VTOPtt" Name="Operations" Position="312,517">
@@ -5406,7 +5406,6 @@
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="BusyWaitTimer" />
                 </p:NodeReference>
-                <Pin Id="MdYjKgw5Eg7N6dfJGdTbYG" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="A1PowqtxYglQJca0jtu0RY" Name="Period" Kind="InputPin" />
                 <Pin Id="VCq4ROmb5u0L9ovbYDPHhr" Name="Wait Accuracy" Kind="InputPin" DefaultValue="4">
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -8667,7 +8666,6 @@
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="BusyWaitTimer" />
                   </p:NodeReference>
-                  <Pin Id="K69x2eamucdLFlvheaUXDC" Name="Node Context" Kind="InputPin" IsHidden="true" />
                   <Pin Id="KH9NrMY3HsAObhDkHSAsnT" Name="Period" Kind="InputPin" />
                   <Pin Id="HqNp1y87PXXOFA5OwiEUrh" Name="Wait Accuracy" Kind="InputPin" />
                   <Pin Id="BoxOJR7TW4tMianUhkZEtA" Name="Mode" Kind="InputPin" />
@@ -8755,7 +8753,7 @@
                   <Pin Id="S5gpRsiwhDrNNzsEYkBlhj" Name="Input 2" Kind="InputPin" />
                   <Pin Id="FCwTDNUwlV6ORHih9ZRjUg" Name="Output" Kind="OutputPin" />
                 </Node>
-                <Node Bounds="626,318,62,19" Id="AqCLO7PDYeuNR3RG8AV9dO">
+                <Node Bounds="624,318,62,19" Id="AqCLO7PDYeuNR3RG8AV9dO">
                   <p:NodeReference LastCategoryFullName="System.Conversion" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="ToFloat32" />
@@ -8786,8 +8784,8 @@
                 <ControlPoint Id="C9rIH3dsLHdMTDuwfK9tbZ" Bounds="818,609" />
                 <ControlPoint Id="LPpHc5kORkWMOrBU9wU7Tw" Bounds="817,575" />
                 <ControlPoint Id="Nib82vMvngLMuRv1nY2saa" Bounds="819,643" />
-                <ControlPoint Id="DdX6JNVrcmONa9tyX1EaK6" Bounds="705,328" />
-                <Node Bounds="706,393,54,19" Id="MgtkGGzqoc4M0UHYURMRtg">
+                <ControlPoint Id="DdX6JNVrcmONa9tyX1EaK6" Bounds="705,327" />
+                <Node Bounds="706,360,54,19" Id="MgtkGGzqoc4M0UHYURMRtg">
                   <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="OnOpen" />
@@ -8812,6 +8810,20 @@
                 </Node>
                 <ControlPoint Id="QFMiPhzs8gpPC3k4ES9HO8" Bounds="566,630" />
                 <ControlPoint Id="Q8GnWLMIAEsNvGfTjsKgej" Bounds="665,630" />
+                <Node Bounds="706,400,65,19" Id="BdNJchvb3cyPTWn7J065wt">
+                  <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <Choice Kind="ProcessAppFlag" Name="MonoFlop (FrameBased)" />
+                  </p:NodeReference>
+                  <Pin Id="BgxuBtofUgKPzJxMu1UebQ" Name="Node Context" Kind="InputPin" IsHidden="true" />
+                  <Pin Id="DjbM2B4jIihMCxzTDj8IaB" Name="Set" Kind="InputPin" />
+                  <Pin Id="QZemSnYHMAzMmnVEVsDCKJ" Name="Frames" Kind="InputPin" DefaultValue="4" />
+                  <Pin Id="D8vKbgGo8ScMa3EqsJRIOi" Name="Retriggerable" Kind="InputPin" />
+                  <Pin Id="IvoayuSwtE0LisnQZYgsKt" Name="Reset" Kind="InputPin" />
+                  <Pin Id="DwUSdQx5FXXNmknfMdP469" Name="Value" Kind="OutputPin" />
+                  <Pin Id="ReAZMzr30R6QVn9sgDku8D" Name="Inverse Output" Kind="OutputPin" />
+                  <Pin Id="VLB8hNytvAxOLjo1soS8VZ" Name="Current Frame" Kind="OutputPin" />
+                </Node>
               </Canvas>
               <Patch Id="I2KwrZGkBWXLyzOR2WaDAJ" Name="Create" />
               <Patch Id="R6QPjhZLnqrQdH6wqWHyCt" Name="Update">
@@ -8867,14 +8879,15 @@
               <Link Id="ShIwY9H6yfALtjMNnqgkgu" Ids="U1q0GGeUEuUNQUpheckqjB,Nib82vMvngLMuRv1nY2saa" />
               <Link Id="PleHO9mfm5eM5PiDzLh1sF" Ids="DdX6JNVrcmONa9tyX1EaK6,Vlw472kWAwcP0Vo8z0bXsi" IsHidden="true" />
               <Link Id="CMkMlkdRfXtNMZW52pE6jf" Ids="EXtT1Rejo64NxvjDeHpxmv,DdX6JNVrcmONa9tyX1EaK6" />
-              <Link Id="F9IZKZ8rDMSN6924CmdXLx" Ids="AWMHrCICiiMN3JZjBrmBkB,TDRWPVyT8LEMNhP9dwbkI6" />
               <Link Id="Sb2Z8Q4UsiBQHGgnK3HHTF" Ids="A7wdUhu3hFBL2iwKhjKCHi,JKNSV8d8pcxPYY0tAUuSE0" />
-              <Link Id="MEVkvR2Jnk0MTWuxUVsvjk" Ids="AWMHrCICiiMN3JZjBrmBkB,QAMCaryH9ulLxPpcOFzbAb" />
               <Link Id="SxcIKyMJc2HPhEDgA6mD4a" Ids="HoCHyruH1E5PWsytBDmkyI,QFMiPhzs8gpPC3k4ES9HO8" />
               <Link Id="GTih1ZGW26UMnLBFFhbaN3" Ids="QFMiPhzs8gpPC3k4ES9HO8,UhBSvgdpNTvLCJBRhgfbrd" IsHidden="true" />
               <Link Id="TxfBJ1R1aeaPITfflpMq07" Ids="Q8GnWLMIAEsNvGfTjsKgej,KAZJNuzG9FaNiJRVIbU4rC" IsHidden="true" />
               <Link Id="NIpYGxZrqhPQXhx4p0965U" Ids="SZxjQy404mYMSaI5bq6Gyy,KH9NrMY3HsAObhDkHSAsnT" />
               <Link Id="QPWaZwgDJhEPk7SNa03d8N" Ids="FCwTDNUwlV6ORHih9ZRjUg,Q8GnWLMIAEsNvGfTjsKgej" />
+              <Link Id="BEeIgmE24OxMIVkzdkauU8" Ids="AWMHrCICiiMN3JZjBrmBkB,DjbM2B4jIihMCxzTDj8IaB" />
+              <Link Id="KtXpKlySPVBL493bc9f0OR" Ids="DwUSdQx5FXXNmknfMdP469,TDRWPVyT8LEMNhP9dwbkI6" />
+              <Link Id="BRinzGQJIcuOTrMRBNd0Pe" Ids="DwUSdQx5FXXNmknfMdP469,QAMCaryH9ulLxPpcOFzbAb" />
             </Patch>
           </Node>
           <!--
@@ -8925,7 +8938,6 @@
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="BusyWaitTimer" />
                       </p:NodeReference>
-                      <Pin Id="G7wIfxHT2IPOQJb0O18SyX" Name="Node Context" Kind="InputPin" IsHidden="true" />
                       <Pin Id="VQroEorecloOrIGDk3ULPg" Name="Period" Kind="InputPin" />
                       <Pin Id="PpjpZ2u1J5dNIACP4V47fH" Name="Wait Accuracy" Kind="InputPin" />
                       <Pin Id="NgilQ9TqtPwNeLbtqaTKf6" Name="Mode" Kind="InputPin" />
@@ -11276,7 +11288,6 @@
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="BusyWaitTimer" />
                 </p:NodeReference>
-                <Pin Id="KKy63C6jzKAMwdSLGfMHkh" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="BOcCAklprEdMntmSIl5HEM" Name="Period" Kind="InputPin" DefaultValue="5">
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="TypeFlag" Name="Float32" />
@@ -27464,9 +27475,8 @@
     </Node>
     <Slot Id="Rt9CP4AVeXiLMTYfhq78qm" Name="Result" />
   </Patch>
-  <NugetDependency Id="JRs0Wys6mnULopMfOWdH80" Location="VL.CoreLib" Version="2025.7.0-0237-g28be6f4100" />
-  <NugetDependency Id="GGwDSaNjWrHLociSvnLKUU" Location="VL.IO.Midi" Version="1.1.6" />
-  <NugetDependency Id="DpTEPvypp5XN5HhUX66E1e" Location="VL.Skia" Version="2025.7.0-0237-g28be6f4100" />
+  <NugetDependency Id="JRs0Wys6mnULopMfOWdH80" Location="VL.CoreLib" Version="2025.7.0-0369-g117540fa59" />
+  <NugetDependency Id="GGwDSaNjWrHLociSvnLKUU" Location="VL.IO.Midi" Version="1.1.7" />
+  <NugetDependency Id="DpTEPvypp5XN5HhUX66E1e" Location="VL.Skia" Version="2025.7.0-0369-g117540fa59" />
   <PlatformDependency Id="CececrPKW8kNVpchxgweT2" Location="./lib/netstandard2.0/MusicUtilEnums.dll" />
-  <NugetDependency Id="KlLLBETMLENOITLDRyQycS" Location="VL.MiDi.Music.Utils" Version="1.1.8" />
 </Document>
